@@ -29,12 +29,36 @@ footer {
 }
 
 /**Fonts**/
-h1, h2, a {
+h1, h2 {
     font-family: 'Alegreya';
 }
 
-p {
+h3, h4, h5, a {
+    font-family: 'Fredoka';
+}
+
+h3 {
+    font-size: 16pt;
+}
+
+h4 {
+    font-size: 14pt;
+}
+
+h5 {
+    font-size: 12pt;
+}
+
+p, blockquote {
     font-family: 'Belgrano';
+}
+
+blockquote {
+    font-style: italic;
+}
+
+ul {
+    font-family: 'Fredoka', sans-serif;
 }
 
 /**Banner**/
@@ -105,4 +129,35 @@ footer a:visited {
 
 .index a:visited {
     color: antiquewhite;
+}
+
+/**Body of the Text**/
+.text {
+    padding: 20px;
+}
+
+.text > h2, h3 {
+    text-align: center;
+}
+
+.text > h2 {
+    margin-top: 20px;
+}
+
+.text > p {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+hr {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px dotted brown;
+}
+
+.text > a {
+    margin-left: 30px;
+    margin-right: 30px;
 }
