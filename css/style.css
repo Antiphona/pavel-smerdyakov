@@ -39,10 +39,15 @@ h3, h4, h5, a {
 
 h3 {
     font-size: 16pt;
+    text-decoration: underline;
+    text-decoration-color: brown;
+    text-decoration-style: double;
 }
 
 h4 {
     font-size: 14pt;
+    text-decoration: underline;
+    text-decoration-color: brown;
 }
 
 h5 {
@@ -147,6 +152,19 @@ footer a:visited {
 .text > p {
     margin-left: 30px;
     margin-right: 30px;
+    background:#fffae4;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 10px;
+}
+
+.text > blockquote {
+    margin-left: 30px;
+    margin-right: 30px;
+    background: #fffae4;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 10px;
 }
 
 hr {
@@ -157,7 +175,6 @@ hr {
     border: 1px dotted brown;
 }
 
-.text > a {
-    margin-left: 30px;
-    margin-right: 30px;
+.top {
+    padding: 30px;
 }
