@@ -1,11 +1,11 @@
 /**Global Style**/
 body {
-    background-color:  #f9e79f;
+    background-color: #FCF5E9;
     margin: 0;
     padding: 0;
 }
 
-img {
+.banner > img {
     border-width: 3px;
     border-style: double;
     max-height: 100%;
@@ -70,7 +70,7 @@ ul {
 .banner {
     display: flex;
     justify-content: center;
-    width: 500px;
+    width: 75%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -109,13 +109,22 @@ footer a:visited {
     color: #f9e79f;
 }
 
+/**About Sections**/
+.about {
+    margin: 50px;
+    padding: 30px;
+    background: #F9E79F;
+    border-style: double;
+}
+
 /**Chapter Index**/
 .index {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 100px;
+    margin: 80px;
+    padding-bottom: 50px;
     background-color: #41362E;
     color: antiquewhite;
     border-style: double;
@@ -136,6 +145,10 @@ footer a:visited {
     color: antiquewhite;
 }
 
+.index > ul {
+    font-size: 20px;
+}
+
 /**Body of the Text**/
 .text {
     padding: 20px;
@@ -149,19 +162,10 @@ footer a:visited {
     margin-top: 20px;
 }
 
-.text > p {
+.text > p, blockquote {
     margin-left: 30px;
     margin-right: 30px;
-    background:#fffae4;
-    margin-top: auto;
-    margin-bottom: auto;
-    padding: 10px;
-}
-
-.text > blockquote {
-    margin-left: 30px;
-    margin-right: 30px;
-    background: #fffae4;
+    background: #FCF5E9;
     margin-top: auto;
     margin-bottom: auto;
     padding: 10px;
@@ -177,4 +181,21 @@ hr {
 
 .top {
     padding: 30px;
+}
+
+/**Drawings**/
+.drawings > img {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: auto;
+    margin: 50px;
+    border: double;
+}
+
+.drawings {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
