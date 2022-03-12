@@ -1,3 +1,3 @@
 # pavel-smerdyakov
-Every time Pavel Smerdyakov is mentioned in The Brothers Karamazov.
-A fansite for my favourite character to practise the HTML/CSS coding I've learned so far.
+A fansite for Pavel Smerdyakov, the fourth Karamazov brother from Fyodor Dostoyevsky's The Brothers Karamazov.
+Includes drawings by Bacchanalium and every time Pavel appears in the book.
