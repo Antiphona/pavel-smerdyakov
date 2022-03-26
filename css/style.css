@@ -6,9 +6,7 @@ body {
 }
 
 .banner > img {
-    border-width: 3px;
-    border-style: double;
-    border-color: brown;
+    border: 2px solid black;
     max-height: 100%;
     max-width: 100%;
 }
@@ -26,12 +24,12 @@ footer {
     padding: 10px;
     font-size: 12px;
     background-color: #41362E;
-    color: antiquewhite;
+    color: floralwhite;
 }
 
 /**Fonts**/
 h1 {
-    text-shadow: 2px 2px orangered;
+    text-shadow: 2px 2px floralwhite;
 }
 
 h1, h2 {
@@ -52,7 +50,7 @@ h3 {
 h4 {
     font-size: 14pt;
     text-decoration: underline;
-    text-decoration-color: brown;
+    text-decoration-color: seagreen;
 }
 
 h5 {
@@ -77,8 +75,7 @@ ul {
     justify-content: center;
     width: 75%;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px auto;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -116,14 +113,10 @@ footer a:visited {
 
 /**About Sections**/
 .about {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin: 30px auto;
     padding: 30px;
-    background: #FCF5E9;
-    border-style: double;
-    border-color: brown;
+    background: floralwhite;
+    border: 2px dotted seagreen;
     width: 800px;
 }
 
@@ -136,14 +129,13 @@ footer a:visited {
     margin: 80px auto;
     padding-bottom: 50px;
     background-color: #41362E;
-    color: antiquewhite;
-    border-style: double;
-    border-color: brown;
+    color: floralwhite;
+    border: 10px double brown;
     width: 800px;
 }
 
 .index h2 {
-    color: antiquewhite;
+    color: floralwhite;
     padding: 20px;
     text-decoration-style: dotted;
     font-size: 36px;
@@ -154,7 +146,7 @@ footer a:visited {
 }
 
 .index a:visited {
-    color: antiquewhite;
+    color: floralwhite;
 }
 
 .index > ul {
@@ -188,7 +180,7 @@ hr {
     width: 600px;
     margin-top: 30px;
     margin-bottom: 30px;
-    border: 1px dotted brown;
+    border: 1px dotted seagreen;
 }
 
 .top {
@@ -202,8 +194,8 @@ hr {
     height: 400px;
     width: auto;
     margin: 50px;
-    border-style: double;
-    border-color: brown;
+    border: 3px solid black;
+
 }
 
 .drawings {
